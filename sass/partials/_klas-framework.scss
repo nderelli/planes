@@ -1,0 +1,132 @@
+/* SCSS Framework boilerplate from KLAS: https://github.com/kylelarkin/klas */
+// -------------------------------------------------
+// KL[AS] Compass Imports
+// ---------------------------------------------- */
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/box-sizing";
+@import "compass/css3/images";
+@import "compass/css3/opacity";
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/typography/lists/inline-block-list";
+@import "compass/typography/text/replacement";
+@import "compass/utilities/general/clearfix";
+
+
+// -------------------------------------------------
+// KL[AS] Variables
+// ---------------------------------------------- */
+$heading-font: "Courier New", Courier, monospace;
+$body-font: "Courier New", Courier, monospace;
+
+$body-color: #555;
+$heading-color: #333;
+$link-color: #000;
+$link-hover: #555;
+
+$page-width: 1280px;
+
+$ani-speed: 250ms;
+
+
+// -------------------------------------------------
+// Media Query Break Points
+// ---------------------------------------------- */
+$mq-desktop: 620px;
+
+
+// -------------------------------------------------
+// Basic Styles
+// ---------------------------------------------- */
+
+body,select,input,textarea{color:#333;}
+
+// -------------------------------------------------
+// KL[AS] Mixins
+// ---------------------------------------------- */
+
+// custom text selection treatment, developed from http://stackoverflow.com/a/10372599/136018
+@mixin selection($color, $background) {
+	$prefixes: ("-webkit-","-moz-", "-o-", "");
+    @each $prefix in $prefixes {
+        ::#{$prefix}selection {
+            color: $color;
+            background: $background;
+            text-shadow:none; // remove any text shadows:twitter.com/miketaylr/status/12228805301)
+        }
+    }
+    /* j.mp/webkit-tap-highlight-color */
+	a:link{-webkit-tap-highlight-color:$background;}
+	ins{background-color:$background;color:$color;text-decoration:none;}
+	mark{background-color:$background;color:$color;font-style:italic;font-weight:bold;}
+}
+
+// Remove UL Styling
+@mixin ul-reset {
+	list-style: none;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+// Rem Font Sizing
+@mixin font-size-rem($size: 1.6){
+  font-size: ($size * 10) + px;
+  font-size: $size + rem;
+}
+
+@mixin hyphenate {
+	-ms-word-break: break-all;
+	word-break: break-all;
+
+	// Non standard for webkit
+	word-break: break-word;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+@mixin column-50-pct {
+	width: 50%;
+	float: left;
+
+	p {
+		padding: 0 2em 1em;
+	}
+}
+
+@mixin column-33-pct {
+	width: (($page_width - 40 - 20*2) / 3);
+	float: left;
+	margin-left: 20px;
+
+	&.first { margin-left: 0; }
+
+	p {
+		padding: 0 0 1em;
+	}
+}
+
+@mixin column-66-pct {
+	width: (($page_width - 40 - 10) / 3 * 2);
+	float: left;
+	margin-left: 20px;
+
+	&.first { margin-left: 0; }
+
+	p {
+		padding: 0 2em 1em;
+	}
+}
+
+@mixin trans-fade-hidden {
+	@include transition(opacity $ani_speed linear 0ms, visibility $ani_speed linear 0ms);
+	visibility: hidden;
+	opacity: 0;
+}
+
+@mixin trans-fade-visible {
+	visibility: visible;
+	opacity: 1;
+}
