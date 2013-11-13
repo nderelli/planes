@@ -11,14 +11,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/index.php" : {
+    "\/sass\/print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/sass\/print.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/print.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/functions.php" : {
       "ignoreWasSetByUser" : 0,
@@ -63,17 +66,6 @@
       "outputAbbreviatedPath" : "\/css\/_type.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/script-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/script-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/script-ck-ck.js",
-      "fileType" : 64
     },
     "\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -156,17 +148,6 @@
       "initialSize" : 116321,
       "fileType" : 4096
     },
-    "\/script-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/script-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/script-min-ck.js",
-      "fileType" : 64
-    },
     "\/css\/editor-style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -248,6 +229,15 @@
       "outputAbbreviatedPath" : "\/js\/respond.min-ck.js",
       "fileType" : 64
     },
+    "\/css\/component.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/component.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/sass\/partials\/_klas-framework.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -260,15 +250,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/component.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/component.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/js\/jquery.anystretch.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -280,15 +261,6 @@
       "outputAbbreviatedPath" : "\/js\/jquery.anystretch.min-ck.js",
       "fileType" : 64
     },
-    "\/clocks.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/clocks.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -298,6 +270,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/clocks.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/clocks.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -306,6 +287,15 @@
       "inputAbbreviatedPath" : "\/css\/ie.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/ie.js" : {
       "ignoreWasSetByUser" : 0,
@@ -317,15 +307,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/ie-ck.js",
       "fileType" : 64
-    },
-    "\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/posters.php" : {
       "ignoreWasSetByUser" : 0,
@@ -344,7 +325,7 @@
       "inputAbbreviatedPath" : "\/js\/script.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/script-min.js",
+      "outputAbbreviatedPath" : "\/js\/script-min.js",
       "fileType" : 64
     },
     "\/index.html" : {
@@ -387,6 +368,15 @@
       "outputAbbreviatedPath" : "\/js\/masonry-ck.js",
       "fileType" : 64
     },
+    "\/comments.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/comments.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/archive.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -396,12 +386,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/comments.php" : {
+    "\/single.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/comments.php",
+      "inputAbbreviatedPath" : "\/single.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -417,12 +407,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/single.php" : {
+    "\/searchform.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/single.php",
+      "inputAbbreviatedPath" : "\/searchform.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -436,15 +426,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/masonry.min-ck.js",
       "fileType" : 64
-    },
-    "\/searchform.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/searchform.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/wp-config.php" : {
       "ignoreWasSetByUser" : 0,
@@ -484,17 +465,14 @@
       "initialSize" : 4890,
       "fileType" : 8192
     },
-    "\/sass\/print.scss" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/print.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/print.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/PIE.php" : {
       "ignoreWasSetByUser" : 0,

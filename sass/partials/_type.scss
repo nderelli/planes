@@ -1,0 +1,55 @@
+//  TYPE STYLES
+
+// This file is meant for the base styles of all text elements.
+// There should be no references to classes in this document.
+
+
+
+
+html {
+	font-size: 100%;	
+}
+
+body {
+	color: $base-color;
+	font-family: $base-font;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	word-spacing: $word-spacing;
+	letter-spacing: $letter-spacing;
+	* {
+		text-rendering: optimizeLegibility;
+	}
+
+	a {
+		color: $link-color;
+		text-decoration: none;
+		@include transition(all 150ms ease-in);
+
+		&:hover { 
+			color: $link-color-hover;
+			text-decoration: underline;
+		}
+
+		&:active { 
+			color: $link-color-active;
+
+		}
+		&:visited { 
+			//color: $link-color-visited;
+
+		}
+		&:focus { 
+			color: $link-color-focus;
+
+		}
+	}
+}
+
+
+
+h1, h2, h3, h4, {
+	color: $heading-color;
+	font-family: $heading-font;
+	letter-spacing: 0px;
+}
