@@ -13,7 +13,6 @@
 	<?php wp_head(); ?>
 	
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/screen.css" />
-	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_directory' ); ?>/css/flexslider.css" />
 
 
 	<!--[if lt IE 9]>
