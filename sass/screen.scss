@@ -55,27 +55,27 @@ header{
 	width: 100%;
 	display: inline-block;
 	.logo{
-			position: relative;
-			float: left;
-			width: 240px;
-			height: auto;
-			padding-left: 5%;
-			padding-top: 1em;
-			padding-bottom: .8em;
-			margin-right: 35%;
-			&:hover{
+		position: relative;
+		float: left;
+		width: 240px;
+		height: auto;
+		padding-left: 5%;
+		padding-top: 1em;
+		padding-bottom: .8em;
+		margin-right: 35%;
+		&:hover{
 
-			}
-			@media screen and (max-width: 1180px) {
-				margin-right: 31%;
-			}
-			@media screen and (max-width: 980px) {
-				margin-right: 15.5%;
-			}
-			@media screen and (max-width: 568px) {
-				margin-right: 25%;
-				padding-bottom: 0;
-			}
+		}
+		@media screen and (max-width: 1180px) {
+			margin-right: 31%;
+		}
+		@media screen and (max-width: 980px) {
+			margin-right: 15.5%;
+		}
+		@media screen and (max-width: 568px) {
+			margin-right: 25%;
+			padding-bottom: 0;
+		}
 	}
 
 	img{
@@ -318,6 +318,12 @@ ul {
 		a { text-decoration: none; }
 	}
 }
+
+span.live {
+	color: red;
+}
+
+
 ///////////////////location////////////////////
 ul.slider {
 	width:100%;

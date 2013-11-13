@@ -104,4 +104,6 @@ if ( ! function_exists( '_s_comment' ) ) :
 	}
 endif; // ends check for _s_comment()
 
+// remove <p></p> around posts
+remove_filter( 'the_content', 'wpautop' );
 ?>
