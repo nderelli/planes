@@ -11,7 +11,6 @@
 <?php wp_footer(); ?><!-- required don't remove -->
 <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js?ver=3.5.1'></script>
 <script type="text/javascript"src="<?php bloginfo('template_directory'); ?>/js/masonry.min.js"></script>
-<script type='text/javascript' src='http://masonry.desandro.com/components/classie/classie.js'></script>
 <script type="text/javascript"src="<?php bloginfo('template_directory'); ?>/js/jquery.anystretch.min.js"></script>
 <script type="text/javascript"src="<?php bloginfo('template_directory'); ?>/js/jquery.flexslider.js"></script>
 
