@@ -2,6 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
+    "\/sidebar.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sidebar.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/sass\/print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -169,17 +178,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
-    "\/img\/no-naked-walls.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/no-naked-walls.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/no-naked-walls.png",
-      "initialSize" : 19881,
-      "fileType" : 8192
-    },
     "\/js\/animo.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -190,6 +188,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/animo-ck.js",
       "fileType" : 64
+    },
+    "\/img\/no-naked-walls.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/no-naked-walls.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/no-naked-walls.png",
+      "initialSize" : 19881,
+      "fileType" : 8192
     },
     "\/js\/respond.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -344,25 +353,16 @@
       "initialSize" : 42731,
       "fileType" : 8192
     },
-    "\/js\/jquery.smooth-scroll.min.js" : {
+    "\/js\/masonry.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min.js",
+      "inputAbbreviatedPath" : "\/js\/masonry.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min-ck.js",
+      "outputAbbreviatedPath" : "\/js\/masonry-ck.js",
       "fileType" : 64
-    },
-    "\/archive.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/page-posters.php" : {
       "ignoreWasSetByUser" : 0,
@@ -370,6 +370,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/page-posters.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/archive.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -384,6 +393,17 @@
       "initialSize" : 116321,
       "fileType" : 4096
     },
+    "\/js\/jquery.smooth-scroll.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min-ck.js",
+      "fileType" : 64
+    },
     "\/sass\/editor-style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -395,17 +415,6 @@
       "outputAbbreviatedPath" : "\/css\/editor-style.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/masonry.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/masonry.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/masonry-ck.js",
-      "fileType" : 64
     },
     "\/js\/masonry.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -427,6 +436,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/wp-config.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/wp-config.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/script-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -437,15 +455,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/script-min-ck.js",
       "fileType" : 64
-    },
-    "\/wp-config.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/wp-config.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/page.php" : {
       "ignoreWasSetByUser" : 0,
