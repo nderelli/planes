@@ -17,11 +17,13 @@ This theme is meant to present a large number of posters that will be auctioned.
 [ ] Allow posters/clocks to be sorted
 
 _Dreaming_
+
 [ ] Make classmate user - can edit certain information. Maybe based on committee
 [ ] Load content dynamically with ajax
 
 
 **Colophon**
+
 Built for Wordpress, with Sass, and includes a codekit-config file— so you can jump right in.
 
 
