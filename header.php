@@ -35,6 +35,7 @@
 	<div class="wrapper">
 	
 		<header role="header">
+			<div class="inner">
 				<div class="logo">
 					<a href="<?php bloginfo('url'); ?>" alt="home">
 						<img src="<?php bloginfo('template_directory'); ?>/img/no-naked-walls.png" alt="no-naked-walls">
@@ -43,7 +44,9 @@
 				<nav role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary-header-menu', 'container' => false) ); ?>
 				</nav>
+			</div>
 			
 		</header>
 
-		<div class="content-wrapper clearfix" role="content"> <!-- End Header -->
+		<section class="content clearfix" role="content"> 
+		<div class="inner"><!-- End Header -->
