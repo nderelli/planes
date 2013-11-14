@@ -24,33 +24,33 @@ add_action( 'init', 'create_post_types');
 function create_post_types() {
 
 	$posterLabels = array( 
-        'name' => _x( 'Posters', 'poster' ),
-        'singular_name' => _x( 'Poster', 'poster' ),
-        'add_new' => _x( 'Add New', 'poster' ),
-        'add_new_item' => _x( 'Add New Poster', 'poster' ),
-        'edit_item' => _x( 'Edit Poster', 'poster' ),
-        'new_item' => _x( 'New Poster', 'poster' ),
-        'view_item' => _x( 'View Poster', 'poster' ),
-        'search_items' => _x( 'Search Posters', 'poster' ),
-        'not_found' => _x( 'No posters found', 'poster' ),
-        'not_found_in_trash' => _x( 'No posters found in Trash', 'poster' ),
-        'parent_item_colon' => _x( 'Parent Poster:', 'poster' ),
-        'menu_name' => _x( 'Posters', 'poster' ),
+        'name' => __( 'Posters', 'poster' ),
+        'singular_name' => __( 'Poster', 'poster' ),
+        'add_new' => __( 'Add New', 'poster' ),
+        'add_new_item' => __( 'Add New Poster', 'poster' ),
+        'edit_item' => __( 'Edit Poster', 'poster' ),
+        'new_item' => __( 'New Poster', 'poster' ),
+        'view_item' => __( 'View Poster', 'poster' ),
+        'search_items' => __( 'Search Posters', 'poster' ),
+        'not_found' => __( 'No posters found', 'poster' ),
+        'not_found_in_trash' => __( 'No posters found in Trash', 'poster' ),
+        'parent_item_colon' => __( 'Parent Poster:', 'poster' ),
+        'menu_name' => __( 'Posters', 'poster' ),
     );
 
     $clockLabels = array( 
-        'name' => _x( 'Clocks', 'clock' ),
-        'singular_name' => _x( 'Clock', 'clock' ),
-        'add_new' => _x( 'Add New', 'clock' ),
-        'add_new_item' => _x( 'Add New Clock', 'clock' ),
-        'edit_item' => _x( 'Edit Clock', 'clock' ),
-        'new_item' => _x( 'New Clock', 'clock' ),
-        'view_item' => _x( 'View Clock', 'clock' ),
-        'search_items' => _x( 'Search Clocks', 'clock' ),
-        'not_found' => _x( 'No clocks found', 'clock' ),
-        'not_found_in_trash' => _x( 'No clocks found in Trash', 'clock' ),
-        'parent_item_colon' => _x( 'Parent Clock:', 'clock' ),
-        'menu_name' => _x( 'Clocks', 'clock' ),
+        'name' => __( 'Clocks', 'clock' ),
+        'singular_name' => __( 'Clock', 'clock' ),
+        'add_new' => __( 'Add New', 'clock' ),
+        'add_new_item' => __( 'Add New Clock', 'clock' ),
+        'edit_item' => __( 'Edit Clock', 'clock' ),
+        'new_item' => __( 'New Clock', 'clock' ),
+        'view_item' => __( 'View Clock', 'clock' ),
+        'search_items' => __( 'Search Clocks', 'clock' ),
+        'not_found' => __( 'No clocks found', 'clock' ),
+        'not_found_in_trash' => __( 'No clocks found in Trash', 'clock' ),
+        'parent_item_colon' => __( 'Parent Clock:', 'clock' ),
+        'menu_name' => __( 'Clocks', 'clock' ),
     );
 
     $posterArgs = array( 
@@ -71,7 +71,6 @@ function create_post_types() {
         'query_var' => true,
         'can_export' => true,
         'rewrite' => array('slug' => 'posters'),
-        'capability_type' => 'post' 
         );
 
     $clockArgs = array(
@@ -87,8 +86,8 @@ function create_post_types() {
 		);
 
 
-	register_post_type( 'vcd_poster', $posterArgs );
-	register_post_type( 'vcd_clock', $clockArgs );
+	register_post_type( 'poster', $posterArgs );
+	register_post_type( 'clock', $clockArgs );
 }
 
 // Registers Editor Styles

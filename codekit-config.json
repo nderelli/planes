@@ -99,6 +99,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/front-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/front-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -178,17 +187,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
-    "\/js\/animo.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/animo.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/animo-ck.js",
-      "fileType" : 64
-    },
     "\/img\/no-naked-walls.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -199,6 +197,17 @@
       "outputAbbreviatedPath" : "\/img\/no-naked-walls.png",
       "initialSize" : 19881,
       "fileType" : 8192
+    },
+    "\/js\/animo.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/animo.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/animo-ck.js",
+      "fileType" : 64
     },
     "\/js\/respond.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -211,6 +220,15 @@
       "outputAbbreviatedPath" : "\/js\/respond.min-ck.js",
       "fileType" : 64
     },
+    "\/css\/component.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/component.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/sass\/partials\/_klas-framework.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -222,15 +240,6 @@
       "outputAbbreviatedPath" : "\/css\/_klas-framework.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/css\/component.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/component.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/js\/jquery.anystretch.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -333,6 +342,17 @@
       "outputAbbreviatedPath" : "\/js\/script-min.js",
       "fileType" : 64
     },
+    "\/js\/jquery.smooth-scroll.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min-ck.js",
+      "fileType" : 64
+    },
     "\/css\/screen.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -341,17 +361,6 @@
       "inputAbbreviatedPath" : "\/css\/screen.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/img\/title.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/title.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/title.png",
-      "initialSize" : 42731,
-      "fileType" : 8192
     },
     "\/js\/masonry.js" : {
       "ignoreWasSetByUser" : 0,
@@ -364,15 +373,6 @@
       "outputAbbreviatedPath" : "\/js\/masonry-ck.js",
       "fileType" : 64
     },
-    "\/page-posters.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-posters.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/archive.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -381,6 +381,17 @@
       "inputAbbreviatedPath" : "\/archive.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/img\/title.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/title.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/title.png",
+      "initialSize" : 42731,
+      "fileType" : 8192
     },
     "\/img\/lexi-photo.big.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -393,17 +404,6 @@
       "initialSize" : 116321,
       "fileType" : 4096
     },
-    "\/js\/jquery.smooth-scroll.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.smooth-scroll.min-ck.js",
-      "fileType" : 64
-    },
     "\/sass\/editor-style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -415,6 +415,15 @@
       "outputAbbreviatedPath" : "\/css\/editor-style.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/archive-poster.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive-poster.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/masonry.min.js" : {
       "ignoreWasSetByUser" : 0,

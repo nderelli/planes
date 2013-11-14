@@ -7,6 +7,7 @@
 ?>
 
 <?php get_header(); ?>
+	FUCK
 	<?php $args = array(
 		'post_type' => 'vcd_poster',
 		'posts_per_page' => '-1'

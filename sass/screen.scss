@@ -31,7 +31,9 @@ html {
 
 body {
 	background: url('../img/lexi-photo.jpg');
-	background-position: 50% 50%;
+	background-position: 55% 30%;
+	width: 100%;
+	height: 100% !important;
 	background-repeat: none;
 	background-size: cover;
 	color: $body-color;
