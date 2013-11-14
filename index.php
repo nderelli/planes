@@ -1,20 +1,46 @@
 <?php get_header(); ?>
 
-		<section>
+		<ul id="posters">
+		<!-- Live Auction Posters -->
+
+		<?php $custom_query = new WP_Query(array(
+			'posts_per_page' => -1,
+			'post_type' => 'poster',
+			'category_in' => 'live'
+
+			));
+		while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+		<li class="item">
+			<img src="http://www.placehold.it/300x450" alt="test poster">
+			<p>
+				<?php echo get_field('firm'); ?><span class="live">*</span>
+				<?php echo '</br>' ?>
+				<?php echo get_field('dimensions'); ?>
+			</p>
+		</li>
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
+
+		<!-- Silent Auction Posters -->
 		
-			<?php if(have_posts()) : while(have_posts()) : the_post(); ?><!-- start loop -->
-				<article>
-					<h1><?php the_title(); ?></h1>
-					<?php the_content(); ?>
-				</article>	
-			<?php endwhile; endif; ?><!-- end loop -->
-			
-			<nav role="navigation" class="single-post-nav">
-				<?php posts_nav_link('|;','&laquo; Newer Posts ','Older Posts &raquo;'); ?>
-			</nav>
-			
-		</section>
+		<?php $custom_query = new WP_Query(array(
+			'posts_per_page' => -1,
+			'post_type' => 'poster',
+			'category__not_in' => array(4)
+			));
+		while($custom_query->have_posts()) : $custom_query->the_post(); ?>
+		<li class="item">
+			<img src="http://www.placehold.it/300x450" alt="test poster">
+			<p>
+				<?php echo get_field('firm'); ?>
+				<?php echo '</br>' ?>
+				<?php echo get_field('dimensions'); ?>
+			</p>
+		</li>
+		<?php endwhile; ?>
+		<?php wp_reset_postdata(); ?>
+		</ul>
 		
-		<?php get_sidebar(); ?>
+		<div id="aboutface"></div>
 		
 <?php get_footer(); ?>
