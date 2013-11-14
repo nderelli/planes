@@ -5,10 +5,7 @@ Template Name: Posters
 ?>
 
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
-		<section class="socialwrap"
-		<div id="brick" class="masonry">
-
+		<ul id="posters">
 		<!-- Live Auction Posters -->
 
 		<?php $custom_query = new WP_Query(array(
@@ -17,14 +14,14 @@ Template Name: Posters
 
 			));
 		while($custom_query->have_posts()) : $custom_query->the_post(); ?>
-		<article class="item masonry-brick">
-			<?php the_content(); ?>
+		<li class="item">
+			<img src="http://www.placehold.it/300x450" alt="test poster">
 			<p>
 				<?php echo get_field('firm'); ?><span class="live">*</span>
 				<?php echo '</br>' ?>
 				<?php echo get_field('dimensions'); ?>
 			</p>
-		</article>
+		</li>
 		<?php endwhile; ?>
 		<?php wp_reset_postdata(); ?>
 
@@ -36,18 +33,17 @@ Template Name: Posters
 			'category__not_in' => array(9)
 			));
 		while($custom_query->have_posts()) : $custom_query->the_post(); ?>
-		<article class="item masonry-brick">
-			<?php the_content(); ?>
+		<li class="item">
+			<img src="http://www.placehold.it/300x450" alt="test poster">
 			<p>
 				<?php echo get_field('firm'); ?>
 				<?php echo '</br>' ?>
 				<?php echo get_field('dimensions'); ?>
 			</p>
-		</article>
+		</li>
 		<?php endwhile; ?>
 		<?php wp_reset_postdata(); ?>
-		</div>
-		</section>
+		</ul>
 		
 		<div id="aboutface"></div>
 		

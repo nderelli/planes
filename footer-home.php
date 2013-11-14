@@ -1,3 +1,4 @@
+		</div> <!-- End .inner -->
 		</div> <!-- End .content-wrapper -->
 		
 	

@@ -1,1 +1,118 @@
-_mixins.scss
+@function textColor($opacity:1){
+  @return rgba($base-color,$opacity);	}
+
+@function white($opacity:1){
+  @return rgba(255,255,255,$opacity);  }
+
+@function inverse($num) {
+  @return $num * -1; }
+
+@mixin ul-reset {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+@mixin border-button($bg: $sse-blue1) {
+    background:$bg;
+    display: block;
+    text-align: center;
+
+    &:hover {
+      @include d-box-shadow(0.45em, 0.45em, 0px, scale-color($bg, $lightness: -15%, $saturation: 15%), true);
+      color: $link-color;
+      text-decoration: none;
+    }
+  }
+
+@mixin border-list($border-style) {
+  border-top: $border-style;
+  &:last-child {
+    border-bottom: $border-style;
+  }
+}
+
+
+@mixin link-colors() {
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover { color: $hover-color; }
+    &:active { color: $active-color; }
+    &:visited { color: $visited-color; }
+    &:focus { color: $link-color; }
+  }
+}
+
+@mixin selection($c, $bg) {
+  ::-moz-selection {background: $bg; color:$c; text-shadow:none;}
+  ::selection {background: $bg; color:$c; text-shadow:none;}
+}
+@mixin leader($lines: 1, $line-height: $base-line-height, $property: margin) {
+  #{$property}-top: #{$lines * $line-height}em; }
+  
+@mixin trailer($lines: 1, $line-height: $base-line-height, $property: margin) {
+  #{$property}-bottom: #{$lines * $line-height}em; }
+
+@mixin padding-leader($lines: 1) {
+    padding-top: #{$base-line-height * $lines}em;
+}
+
+@mixin padding-trailer($lines: 1) {
+    padding-bottom: #{$base-line-height * $lines}em;
+}
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+
+@mixin d-box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color, inset inverse($top) inverse($left) $blur $color;
+    box-shadow:inset $top $left $blur $color, inset inverse($top) inverse($left) $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+
+@mixin mq($media) {
+  @if $media == mobile {
+    @media only screen and (max-width: $mobile-width) { @content; }
+  }
+  @else if $media == tablet {
+    @media only screen and (max-width: $tablet-width) { @content; }
+  }
+  @else if $media == normal {
+    @media only screen and (max-width: $normal-width) { @content; }
+  }
+  @else if $media == big {
+    @media only screen and (min-width: $normal-width + 1) { @content; }
+  }
+  @else if $media == print {
+    @media only print { @content; }
+  }
+}
+
+@mixin ul-reset {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+@mixin fluid-square($percentage) {
+  height: 0;
+  padding-bottom: $percentage;
+  width: $percentage;
+}
