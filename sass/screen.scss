@@ -7,6 +7,14 @@
 @import "partials/reset";
 @import "partials/klas-framework";
 
+// Susy helps us with grids
+@import "partials/susy";
+
+$total-columns  : 10;             // a 12-column grid
+$column-width   : 6em;            // each column is 4em wide
+$gutter-width   : 3.25em;            // 1em gutters between columns
+//$grid-padding   : $gutter-width;  // grid-padding equal to gutters
+
 
 @import "partials/mixins";
 
@@ -30,22 +38,34 @@ html {
 }
 
 body {
-	background: url('../img/lexi-photo.jpg');
-	background-position: 55% 30%;
+	&.home {
+		background: url('../img/main-background.jpg');
+		background-position: 55% 30%;		
+		background-repeat: none;
+		background-size: cover;
+
+		footer {
+			display: none;
+			visibility: hidden;
+		}
+	}	
 	width: 100%;
 	height: 100% !important;
-	background-repeat: none;
-	background-size: cover;
 	color: $body-color;
 	font-size: 100%;
 	font-weight: normal;
 	line-height: 150%;
 	font-family: $body-font;
 }
+
+
 .wrapper{
-	position: relative;
+	// Establish our default 4-column grid container.
+	@include container;
 	z-index: 50;
-	width: 100%;
+	padding-bottom: 3.0em;
+
+	
 }
 
 .inner {
@@ -94,10 +114,12 @@ header{
 	padding-top: 0.8em;
 
 	.logo{
+		@include span-columns(3,5);
+
 		position: relative;
-		float: left;
-		width: 50%;
+		float: left;		
 		height: auto;
+
 		img {
 			width: 187px;
 		}
@@ -109,11 +131,13 @@ header{
 		height: auto;
 	}
 	nav{
-		min-width: 300px;
+		@include span-columns(2 omega, 5);
+
 		float: left;
 		position: relative;
 		clear: none;
 		padding-top: 0.5em;
+
 		a { 
 			text-decoration: none;
 			font-size: 1.0em;
@@ -121,6 +145,7 @@ header{
 				text-decoration: underline;
 			}
 		}
+
 		li {
 			margin-right: 2.3em;
 			text-decoration: none;
@@ -138,22 +163,56 @@ header{
 	
 	ul#posters {
 		list-style: none;
+
+		li h2 {
+			word-wrap:normal;
+			white-space:nowrap;
+			overflow:hidden;
+			-ms-text-overflow: ellipsis;
+			text-overflow: ellipsis;
+
+			&:hover {
+				overflow: visible;
+				background: #fff;
+			}
+		}
 	}
 
 	ul#clocks {
 		list-style: none;
+		
+
+		li {
+			padding: 0;
+			width: 20%;
+			margin-right: 6.666666667%;
+			margin-bottom: 2.6em;
+			max-height: 450px;
+
+			&:nth-child(4n) {
+				margin-right: 0;
+			}
+
+		}
+
+		.circle {
+			@include fluid-square(100%);
+			border-radius: 50%;
+			background: #999;
+		}
 	}
 
-	li {
+	ul li {
 		float: left;
-		width: 18%;
-		margin-right: 2.5%;
-		margin-bottom: 2.6em;
-		max-height: 450px;
-
+		margin-bottom: 2.5em;
+		
+		@include span-columns(2,10);
 		&:nth-child(5n) {
-			margin-right: 0;
+			@include omega;
 		}
+
+
+  		
 	}
 }
 
@@ -310,55 +369,7 @@ ul.slides{
 }
 
 
-//-------------------------------------------
-//   Type
-//-------------------------------------------
 
-
-a {
-	color: $link-color;
-	&:hover{
-		color: $link-hover;
-	}
-}
-h1 {
-	font-size: 2.25em;  /* 16x2.25=36 */
-	line-height: 1.33333333333333em; /* 48px */
-	color: $heading-color;
-}
-h2 {
-	font-size: 1.5em;   /* 16x1.5=24 */
-	color: $heading-color; /* 24px */
-}
-h3 {
-	font-size: 1.125em; /* 16x1.125=18 */
-	line-height: 1.33333333333333em; /* 24px */
-	color: $heading-color;
-}
-h4 {
-	font-size: 0.875em; /* 16x0.875=14 */
-	line-height: 1.71428571428571em; /* 24px */
-	color: $heading-color;
-}
-p {
-	font-size: 1em;		/* 16x1=16 */
-	padding-bottom: 0;
-}
-ol {
-	list-style: decimal;
-	margin: 0 0 1em 2em;
-	li { margin: .5em 0; }
-	ol { list-style: lower-alpha; }
-}
-ul {
-	list-style: disc;
-	margin: 0 0 0 0em;
-	padding-bottom: 0em;
-	nav & { // remove styling for nav ul's
-		@include ul-reset;
-		a { text-decoration: none; }
-	}
-}
 
 span.live {
 	color: red;
@@ -367,3 +378,5 @@ span.live {
 footer {
 
 }
+
+

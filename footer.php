@@ -12,9 +12,6 @@
 <?php wp_enqueue_script( 'js-combo', get_bloginfo( 'template_directory' ) . '/js/script-min.js', array('jquery')); ?>
 
 <?php wp_footer(); ?><!-- required don't remove -->
-<script type="text/javascript"src="<?php bloginfo('template_directory'); ?>/js/masonry.min.js"></script>
-<script type="text/javascript"src="<?php bloginfo('template_directory'); ?>/js/jquery.anystretch.min.js"></script>
-<script type="text/javascript"src="<?php bloginfo('template_directory'); ?>/js/jquery.flexslider.js"></script>
 
 
 

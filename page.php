@@ -7,8 +7,6 @@
 				<?php the_content(); ?>
 			
 			</section>
-		
-			<?php get_sidebar(); ?>
 
 	<?php endwhile; endif; ?><!-- end loop -->
 <?php get_footer(); ?>
