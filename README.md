@@ -1,4 +1,3 @@
-
 ## Planes
 
 A theme built for the annual Poster Show and Auction presented by the Visual Communication Design (VCD) program at Arizona State University.
@@ -20,6 +19,7 @@ This theme is meant to present a large number of posters that will be auctioned.
 - [ ] Detailed information on posters. 2 sided? Printing method? Signed?
 - [ ] Allow posters/clocks to be sorted
 - [ ] Fine-tune grid system for posters vs clocks. Circular forms need subtle changes in lining up, etc.
+- [ ] Get 'Information' page and information from it without having to navigate away from posters/clocks.
 
 #### Colophon
 
