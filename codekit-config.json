@@ -132,18 +132,6 @@
       "outputAbbreviatedPath" : "\/js\/masonry.min-ck.js",
       "fileType" : 64
     },
-    "\/sass\/partials\/susy\/_isolation.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/partials\/susy\/_isolation.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_isolation.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/sass\/partials\/_susy.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -153,18 +141,6 @@
       "outputStyle" : 2,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/_susy.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/sass\/ie.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/ie.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/ie.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -178,6 +154,30 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/respond.min-ck.js",
       "fileType" : 64
+    },
+    "\/sass\/ie.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/ie.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/ie.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/sass\/partials\/susy\/_isolation.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/partials\/susy\/_isolation.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_isolation.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/img\/title.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -243,17 +243,6 @@
       "inputAbbreviatedPath" : "\/location.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/img\/lexi-photo.big.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/lexi-photo.big.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/lexi-photo.big.jpg",
-      "initialSize" : 116321,
-      "fileType" : 4096
     },
     "\/img\/main-background.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -332,6 +321,15 @@
       "outputAbbreviatedPath" : "\/js\/script-min-ck.js",
       "fileType" : 64
     },
+    "\/front-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/front-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/css\/editor-style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -347,15 +345,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/404.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/front-page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/front-page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -530,26 +519,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/archive-poster.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive-poster.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/img\/lexi-photo.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/lexi-photo.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/lexi-photo.jpg",
-      "initialSize" : 57244,
-      "fileType" : 4096
-    },
     "\/sass\/partials\/susy\/_functions.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -561,6 +530,15 @@
       "outputAbbreviatedPath" : "\/css\/_functions.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/archive-poster.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive-poster.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/img\/title.png" : {
       "ignoreWasSetByUser" : 0,
